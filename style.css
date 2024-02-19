@@ -1,0 +1,100 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-image>img {
+    height: 700px;
+    width: 100%;
+}
+
+h1 {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img-text-small {
+    font-size: 20px;
+    font-weight: 200;
+    position: absolute;
+    top: 390px;
+    left: 60px;
+}
+
+.img-text {
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    top: 400px;
+    left: 60px;
+
+}
+
+.img-btn {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(255, 0, 76);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* .form {
+    display: flex;
+    border: 100px;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 251, 31);
+    
+
+} */
+
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 80px;
+    top: 150px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: rgb(255, 0, 76);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
